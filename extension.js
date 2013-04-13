@@ -36,6 +36,8 @@ $(document).ready(function () {
 
         sentenceCounter = new Array();
         allwords.forEach(function (sentence) {
+            /* TODO: Improve this sentence matching RegExp. There's a really nice suggestion here: http://stackoverflow.com/questions/5032210/php-sentence-boundaries-detection
+            */
             sentence = sentence.match(/[^\s](\.|\!|\?)(?!\w)/g);
             if( sentence !== null ) {
                 sentenceCounter.push(sentence);
