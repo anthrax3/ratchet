@@ -2,7 +2,7 @@
 
 **Ratchet is a Chrome extension which hides all [HackerNews](http://news.ycombinator.com) comments that are below an 8th grade reading level.**
 
-More information can be found in [this post](http://micahmcfarland.com/2013/04/14/introducing-ratchet.html).
+More information can be found in [this post](http://micahmcfarland.com/2013/04/13/introducing-ratchet.html).
 
 # Installation
 
