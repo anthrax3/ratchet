@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+
+  "name": "Ratchet",
+  "description": "This extension hides comments on HackerNews that are below a 8th grade reading level, according to the Flesch-Kincaid Readability Test",
+  "version": "0.1",
+ "content_scripts": [
+    {
+      "matches": ["http://news.ycombinator.com/*","https://news.ycombinator.com/*"],
+      "css": ["extension.css"],
+      "js": ["jquery.js", "extension.js"]
+    }
+  ]
+}
