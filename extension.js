@@ -1,4 +1,3 @@
-$(document).ready(function () {
 
     $("span.comment").each(
 
@@ -58,11 +57,9 @@ $(document).ready(function () {
         if ( GradeLevel <= 8 ) {
         	// on HN, we have to go a few levels up the DOM tree
         	// so that we can hide the entire table cell
-        	$(this).parent().parent().parent().parent().parent().parent().addClass("hidden")
+        	// $(this).parent().parent().parent().parent().parent().parent().addClass("hidden")
             // this is only for testing
-            // $(this).addClass("attention");
+             $(this).addClass("attention");
         };
 
     });
-
-});
