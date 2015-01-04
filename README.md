@@ -6,11 +6,9 @@ More information can be found in [this post](http://micahmcfarland.com/2013/04/1
 
 # Installation
 
-[Click here](http://mam-cdn.s3.amazonaws.com/ratchet/ratchet-0_1.crx) to download the .crx file, which I've hosted in an S3 bucket.
+Ratchet is available on the Chrome Web Store.
 
-To install, you'll have to drag and drop this file into your Extensions window in Chrome, found under Tools > Extensions. Chrome will complain if you just click on it. That's a security thing.
-
-It will warn you that this extension can "access your data on news.ycombinator.com" -- this is about half true. It doesn't do anything with YOUR data, specifically. Just traverses the DOM tree looking for `span` elements with class `comment`, then acts upon them depending on what's inside.
+<a href="https://chrome.google.com/webstore/detail/ratchet/lidjafppolfnemnbgonaiicoojbjbcmn" target="_blank"><img src="https://developer.chrome.com/webstore/images/ChromeWebStore_Badge_v2_206x58.png" alt="Get Ratchet on the Chrome Web Store" ></a>
 
 ## Alternate Installation
 
